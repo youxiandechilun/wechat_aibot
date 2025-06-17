@@ -15,7 +15,8 @@
 
 ### 多模型支持
 
-*   集成云端 DeepSeek 大模型。https://platform.deepseek.com/usage 可以去这个地址进行购买api，
+*   集成云端 DeepSeek 大模型。偷懒了，只接入了deepseek的api。https://platform.deepseek.com/usage 可以去这个地址进行购买api
+*   我自己购买的deepseek api (sk-7abb599ec13649babd5a5a807f01b1cc) 仅仅10元 可以用很久很久，很便宜的。
 *   支持本地 Ollama 开源模型。
 *   采用统一的 AI 引擎接口设计，便于扩展。
 
