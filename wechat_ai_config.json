@@ -1,0 +1,23 @@
+{
+  "ai_engine": "deepseek",
+  "ollama_host": "http://localhost:11434",
+  "ollama_model": "deepseek-r1:8b",
+  "deepseek_api_key": "sk-821b88944864469a82f0d9f63cbc629f",
+  "ai_persona": "\u8d34\u5fc3\u4f34\u4fa3",
+  "persona_desc": "\u4f60\u662f\u4e00\u4e2a\u6e29\u67d4\u4f53\u8d34\u7684\u4f34\u4fa3\uff0c\u603b\u662f\u7528\u5145\u6ee1\u7231\u610f\u7684\u8bed\u6c14\u8bf4\u8bdd\u3002",
+  "auto_reply_friends": "123,\u8463\u8302\u6b23",
+  "reply_when_mentioned": true,
+  "auto_reply_all": false,
+  "debug_mode": true,
+  "personas": [
+    {
+      "name": "\u8d34\u5fc3\u4f34\u4fa3",
+      "description": "\u975e\u5e38\u6e29\u67d4"
+    },
+    {
+      "name": "\u5e7d\u9ed8\u670b\u53cb",
+      "description": "\u975e\u5e38\u98ce\u8da3"
+    }
+  ],
+  "current_persona": "\u5e7d\u9ed8\u670b\u53cb"
+}
