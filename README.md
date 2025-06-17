@@ -3,18 +3,19 @@
 ## 项目概述
 
 这是一个基于 `wxauto`、`PyQt5` 和 AI 大模型（DeepSeek/Ollama）的微信智能聊天助手系统，旨在实现自动化的消息处理和智能回复功能。
+期末考试早就结束了，也找不到实习，闲着没事干，做了一个微信聊天机器人。很多bug，多多见谅。
 
 ## 核心功能
 
 ### 智能对话服务
 
-*   支持私聊和群聊场景的自动回复。
+*   支持私聊和群聊场景的自动回复。（只能单独聊天，可以自己使用当个人助手。不要群聊）
 *   提供可配置的触发条件和回复规则。
 *   具备多轮对话上下文保持能力。
 
 ### 多模型支持
 
-*   集成云端 DeepSeek 大模型。
+*   集成云端 DeepSeek 大模型。https://platform.deepseek.com/usage 可以去这个地址进行购买api，
 *   支持本地 Ollama 开源模型。
 *   采用统一的 AI 引擎接口设计，便于扩展。
 
@@ -53,7 +54,7 @@ wechat_ai_bot/
 1.  **获取项目代码**
 
     ```bash
-    git clone https://github.com/YourGitHubUsername/wechat_ai_bot.git
+    git clone https://github.com/youxiandechilun/wechat_ai_bot.git
     cd wechat_ai_bot
     ```
 
@@ -112,7 +113,7 @@ wechat_ai_bot/
 
 ## 参与贡献
 
-我们欢迎您通过 Issue 提交问题反馈或通过 Pull Request 贡献代码。在贡献之前，建议您：
+我欢迎您通过 Issue 提交问题反馈或通过 Pull Request 贡献代码。在贡献之前，建议您：
 
 *   详细描述问题现象或改进方案。
 *   提供可复现的测试用例。
